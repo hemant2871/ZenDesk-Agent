@@ -1,0 +1,74 @@
+[
+  {
+    "id": "kb-001",
+    "category": "billing",
+    "title": "How to request a refund",
+    "content": "To request a refund, please contact our support team within 30 days of your purchase. Refunds are processed within 5–7 business days to the original payment method. Subscriptions cancelled after the billing cycle begins are not eligible for a partial refund unless stated in your plan. For annual plans, a prorated refund may be issued if cancelled within the first 14 days."
+  },
+  {
+    "id": "kb-002",
+    "category": "billing",
+    "title": "How to update payment method",
+    "content": "To update your payment method, navigate to Account Settings > Billing > Payment Methods. Click 'Add Payment Method' to enter new card details. Your new card will be charged on the next billing date. Old cards can be removed after a new one is added. We accept Visa, Mastercard, American Express, and PayPal."
+  },
+  {
+    "id": "kb-003",
+    "category": "account",
+    "title": "Password reset instructions",
+    "content": "To reset your password, click 'Forgot Password' on the login page and enter your registered email. You'll receive a reset link valid for 24 hours. If you don't receive the email, check your spam folder or ensure your account email is correct. After resetting, you must log in on all devices again as existing sessions are invalidated."
+  },
+  {
+    "id": "kb-004",
+    "category": "account",
+    "title": "How to change your email address",
+    "content": "To change your account email, go to Account Settings > Profile > Email. Enter your new email and confirm the change via a verification link sent to the new address. The old email will receive a security notification. Note: your username remains unchanged. If you've lost access to your old email, contact support with your account ID."
+  },
+  {
+    "id": "kb-005",
+    "category": "technical",
+    "title": "Troubleshooting login issues",
+    "content": "If you cannot log in: (1) Ensure Caps Lock is off. (2) Clear your browser cache and cookies. (3) Try a different browser or incognito mode. (4) Check if your account has been locked due to multiple failed attempts — it unlocks after 30 minutes. (5) If using SSO, contact your IT admin. (6) Reset your password if you believe it's incorrect."
+  },
+  {
+    "id": "kb-006",
+    "category": "technical",
+    "title": "App not loading or showing errors",
+    "content": "If the application fails to load: (1) Refresh the page (Ctrl+R / Cmd+R). (2) Check your internet connection. (3) Disable browser extensions. (4) Clear cache and cookies. (5) Check our status page at status.zangoh.com for any ongoing incidents. (6) If the problem persists, provide your browser version, OS, and error screenshot to support."
+  },
+  {
+    "id": "kb-007",
+    "category": "subscription",
+    "title": "How to upgrade or downgrade your plan",
+    "content": "To change your subscription plan, go to Account Settings > Billing > Subscription Plan. Select your desired plan and confirm. Upgrades take effect immediately (prorated charge applied). Downgrades take effect at the start of the next billing cycle. Annual plan holders who downgrade will receive credit toward future invoices rather than a refund."
+  },
+  {
+    "id": "kb-008",
+    "category": "subscription",
+    "title": "Cancelling your subscription",
+    "content": "To cancel your subscription, navigate to Account Settings > Billing > Cancel Subscription. You'll retain access until the end of the current billing period. We do not offer refunds for the unused portion of a monthly plan. Before cancelling, consider downgrading to a free tier if available. Your data is retained for 90 days post-cancellation."
+  },
+  {
+    "id": "kb-009",
+    "category": "technical",
+    "title": "API rate limits and errors",
+    "content": "Our API enforces rate limits per plan: Free (100 req/min), Pro (1,000 req/min), Enterprise (custom). If you receive a 429 Too Many Requests error, implement exponential backoff. For 401 Unauthorized errors, regenerate your API key. For 500 errors, retry with backoff and check our status page. API keys can be managed in Settings > Developer > API Keys."
+  },
+  {
+    "id": "kb-010",
+    "category": "general",
+    "title": "Contacting support and SLA",
+    "content": "Support is available 24/7 via chat for Pro and Enterprise plans. Free plan users can submit tickets with a 2-business-day response time. Our SLA guarantees: Critical issues — 4-hour response; High — 8 hours; Medium — 24 hours; Low — 48 hours. For billing disputes, include your invoice number. For technical issues, include error messages and steps to reproduce."
+  },
+  {
+    "id": "kb-011",
+    "category": "account",
+    "title": "Managing team members and permissions",
+    "content": "Admins can add or remove team members from Settings > Team Management. Roles available: Admin (full access), Editor (create/edit content), Viewer (read-only). Team members receive an email invite and must accept within 7 days. The owner account cannot be removed. On the Free plan, teams are limited to 3 members. Upgrade to Pro for up to 25 members."
+  },
+  {
+    "id": "kb-012",
+    "category": "billing",
+    "title": "Understanding your invoice",
+    "content": "Invoices are generated on your billing date and emailed to the account owner. Each invoice shows: plan name, billing period, seat count, taxes, and total charged. To download past invoices, go to Settings > Billing > Invoice History. If you need invoices with a company name or VAT number, update your billing details before the next cycle. Tax is applied based on your billing address."
+  }
+]

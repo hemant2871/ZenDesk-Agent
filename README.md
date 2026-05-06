@@ -1,6 +1,6 @@
 # Zangoh Customer Support Ticket Resolution Agent
 
-> **Zangoh internship prep** — An end-to-end AI agent that resolves customer support tickets using LangChain, ChromaDB, and GPT-4o-mini.
+> An end-to-end AI agent that resolves customer support tickets using LangChain, ChromaDB, and GPT-4o-mini.
 
 ---
 

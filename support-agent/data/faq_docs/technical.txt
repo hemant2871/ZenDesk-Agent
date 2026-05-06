@@ -1,0 +1,47 @@
+TECHNICAL SUPPORT - FREQUENTLY ASKED QUESTIONS
+===============================================
+
+Q: How do I reset my password?
+A: Click "Forgot Password" on the login page and enter your account email. You'll receive a reset link within 5 minutes (check spam if not received). The link expires after 24 hours. After resetting, you'll be logged out of all devices for security. If you don't receive the email after 10 minutes, try adding support@ourapp.com to your contacts and request again. If your account uses SSO (Single Sign-On), password resets must be done through your identity provider.
+
+Q: My account is locked - how do I unlock it?
+A: Accounts are locked after 5 consecutive failed login attempts. The lock automatically lifts after 30 minutes. To unlock immediately, click "Forgot Password" on the login page and reset your password - this also unlocks the account. If your account has been locked for a different reason (security concern), contact support with your account ID for manual review.
+
+Q: Why can't I log in even though my credentials are correct?
+A: Try these steps: (1) Clear browser cookies and cache (Ctrl+Shift+Delete), (2) Try a private/incognito browser window, (3) Disable browser extensions especially password managers and VPNs, (4) Ensure Caps Lock is off, (5) Try a different browser, (6) Check if your account uses SSO and login through your organization's portal. If none of these work, use "Forgot Password" to reset, which confirms your credentials are working.
+
+Q: The app crashes on startup on my mobile device - how do I fix it?
+A: Try these steps in order: (1) Force close the app and reopen, (2) Restart your device, (3) Clear the app cache: Settings > Apps > [App Name] > Clear Cache, (4) Uninstall and reinstall the app from the official app store, (5) Check if your OS version is supported (we require iOS 15+ or Android 11+), (6) Check if you have sufficient storage (app needs at least 200MB free). If the crash persists, send us your device model, OS version, and app version.
+
+Q: How do I fix installation errors on Windows?
+A: Common Windows installation fixes: (1) For 'missing dll' errors: install the latest Visual C++ Redistributable from Microsoft's website, (2) Run the installer as Administrator (right-click > Run as Administrator), (3) Temporarily disable antivirus during installation, (4) Ensure you have at least 1GB free disk space, (5) Download a fresh copy of the installer in case the file is corrupted. For persistent issues, use the MSI installer package instead of the EXE.
+
+Q: How do I set up two-factor authentication (2FA)?
+A: Go to Account Settings > Security > Two-Factor Authentication > Enable. You can choose between: SMS text message (enter your phone number), authenticator app (scan QR code with Google Authenticator or Authy - recommended), or hardware security key (FIDO2/WebAuthn). Save your backup codes in a secure place. If you lose access to your 2FA method, use a backup code or contact support with proof of identity to disable 2FA.
+
+Q: I'm not receiving my 2FA SMS codes - what should I do?
+A: Try these steps: (1) Wait up to 2 minutes as SMS can be delayed, (2) Click "Resend Code" once, (3) Check your phone signal - try WiFi calling if in poor signal area, (4) Ensure your phone number is correct in Account Settings > Security, (5) Check if your carrier is blocking automated messages, (6) Switch to an authenticator app (more reliable than SMS). If still stuck, use a backup code or contact support. We can temporarily disable 2FA after identity verification.
+
+Q: Why is the API returning 401 Unauthorized errors?
+A: 401 errors are caused by authentication issues: (1) Regenerate your API key in Settings > Developer > API Keys - old keys may have expired or been revoked, (2) Check you're sending the key correctly: use 'Authorization: Bearer YOUR_KEY' header, not query parameter, (3) Ensure the key has the correct permissions for the endpoint you're calling, (4) Check if your IP is whitelisted if you've set IP restrictions, (5) Verify the key belongs to the correct account/environment (production vs sandbox).
+
+Q: How do I fix API rate limit errors (429 Too Many Requests)?
+A: Our API rate limits are: Free (60 requests/minute), Basic (200 req/min), Pro (1000 req/min), Enterprise (custom). To fix: (1) Implement exponential backoff - wait before retrying, (2) Cache responses where possible, (3) Batch requests using our bulk endpoints, (4) Check the X-RateLimit-Remaining header to monitor usage, (5) Upgrade your plan for higher limits. Contact support if you need a temporary limit increase for a specific use case.
+
+Q: The web app is loading very slowly - how can I speed it up?
+A: Try these steps: (1) Clear browser cache and cookies, (2) Disable browser extensions (especially ad blockers and VPNs), (3) Try a different browser, (4) Check our status page at status.ourapp.com for any ongoing incidents, (5) Test your internet speed - the app requires at least 5Mbps, (6) If on a shared network, try a mobile hotspot to test. If slowness is consistent across devices and connections, please report it with your location and ISP so we can investigate server routing.
+
+Q: How do I export my data?
+A: Data export is available on Pro and Business plans. Go to Reports > Export > Export to CSV/PDF. For large datasets, exports are processed in the background and emailed to you within 10 minutes. If the export button doesn't respond: (1) Clear browser cache, (2) Try a different browser, (3) Check your popup blocker isn't blocking the download. You can also use our API endpoint GET /v2/export for programmatic data export.
+
+Q: Why did real-time sync stop working?
+A: Real-time sync uses WebSocket connections which can drop due to: (1) Network changes (switching WiFi or going to sleep mode) - refresh the page to reconnect, (2) Firewall blocking WebSocket connections (common in corporate networks) - contact your IT team to allow WSS connections, (3) VPN interference - try temporarily disabling VPN, (4) Browser background tab throttling - keep the tab active. If sync is consistently unreliable, switch to the desktop app which handles reconnection better.
+
+Q: I can't upload files - what are the limits?
+A: File upload limits by plan: Free (5MB per file, 100MB total storage), Basic (25MB per file, 10GB storage), Pro (100MB per file, 100GB storage), Business (500MB per file, 1TB storage). For failed uploads: (1) Check your file doesn't exceed your plan limit, (2) Ensure stable internet during upload, (3) Try a different browser, (4) Check your total storage isn't full in Account > Storage. For bulk uploads, use our API or desktop app which handles large files more reliably.
+
+Q: How do I enable or disable email notifications?
+A: Go to Account Settings > Notifications to configure all email preferences. You can control: daily digest, instant alerts, weekly reports, billing notifications, and security alerts. If you've enabled notifications but aren't receiving emails: (1) Check spam/junk folder, (2) Add our sending domain to your email whitelist, (3) Verify your account email is correct and verified, (4) Check if your email provider is blocking bulk mail - try adding support@ourapp.com as a contact.
+
+Q: The desktop app won't open after an update - how do I fix this?
+A: After updates, cached files can cause launch issues: (1) Fully quit the app, (2) Delete the app cache folder: Windows: %AppData%\AppName\Cache, Mac: ~/Library/Caches/AppName, (3) Relaunch the app. If that doesn't work: (4) Uninstall the current version, (5) Download the latest installer from our website, (6) Install fresh. Your data is stored server-side so nothing will be lost. For persistent issues, run the app from terminal to see error output.

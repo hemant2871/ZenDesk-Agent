@@ -1,0 +1,177 @@
+[
+  {
+    "id": "T001",
+    "subject": "Cannot log into my account after password reset",
+    "body": "Hi, I reset my password yesterday using the email link, but when I try to log in with the new password I get 'Invalid credentials'. I've tried 3 times and now my account appears to be locked. I need access urgently for work. Browser: Chrome 126 on Windows 11.",
+    "category": "technical",
+    "priority": "high"
+  },
+  {
+    "id": "T002",
+    "subject": "App crashes immediately on startup - Android",
+    "body": "Every time I open the app on my Samsung Galaxy S23 (Android 14), it crashes within 2 seconds. I've reinstalled it twice and cleared the cache. It was working fine last week. App version: 4.2.1. I've attached the crash log. Please help!",
+    "category": "technical",
+    "priority": "high"
+  },
+  {
+    "id": "T003",
+    "subject": "API returning 401 Unauthorized despite valid key",
+    "body": "I'm making requests to your REST API using the key from my dashboard but getting 401 Unauthorized on all endpoints. The key was working yesterday. I haven't changed anything in my integration. Using Python requests library with Bearer token auth.",
+    "category": "technical",
+    "priority": "high"
+  },
+  {
+    "id": "T004",
+    "subject": "Two-factor authentication not sending SMS code",
+    "body": "I enabled 2FA on my account last week and it was working. Now the SMS code never arrives. I've waited 10 minutes and tried requesting it 5 times. My phone number is correct. I'm stuck and cannot access my account.",
+    "category": "technical",
+    "priority": "high"
+  },
+  {
+    "id": "T005",
+    "subject": "Data export feature not working - button does nothing",
+    "body": "When I click 'Export to CSV' on the Reports page, absolutely nothing happens. No download, no error, nothing. I'm on the Pro plan and this feature should be available to me. Tried on Firefox and Safari - same issue. Running macOS Sonoma.",
+    "category": "technical",
+    "priority": "medium"
+  },
+  {
+    "id": "T006",
+    "subject": "Desktop app installation fails on Windows 10",
+    "body": "I downloaded the installer from your website (v3.5.2) and when I run it, it gets to 67% then shows 'Installation failed: missing dependency vcruntime140.dll'. I'm running Windows 10 Home 22H2 with all updates installed.",
+    "category": "technical",
+    "priority": "medium"
+  },
+  {
+    "id": "T007",
+    "subject": "Real-time sync stops working after 30 minutes",
+    "body": "The live sync between my desktop and mobile stops updating after about 30 minutes of inactivity. I have to manually refresh to see new data. This is making the app nearly unusable for my workflow. It used to work continuously.",
+    "category": "technical",
+    "priority": "medium"
+  },
+  {
+    "id": "T008",
+    "subject": "App extremely slow - taking 20+ seconds to load",
+    "body": "For the past 3 days the web app has been incredibly slow. Pages take 20-30 seconds to load, sometimes timing out entirely. My internet is fine (running at 500Mbps). My colleagues on the same plan are experiencing the same issue.",
+    "category": "technical",
+    "priority": "high"
+  },
+  {
+    "id": "T009",
+    "subject": "Cannot upload files larger than 5MB",
+    "body": "I'm trying to upload a 12MB PDF report and the upload fails at about 40% with a generic error. The documentation says the limit is 50MB for Pro accounts. I'm on the Pro plan. Smaller files upload fine.",
+    "category": "technical",
+    "priority": "medium"
+  },
+  {
+    "id": "T010",
+    "subject": "Email notifications stopped arriving",
+    "body": "I used to receive daily digest emails but they stopped 5 days ago. My notification settings are all turned on and the email address is correct. I've checked spam and they're not there either. Other emails from you still arrive normally.",
+    "category": "technical",
+    "priority": "low"
+  },
+  {
+    "id": "B001",
+    "subject": "Charged twice for same subscription this month",
+    "body": "I see two identical charges of $49.99 on my credit card statement dated April 3rd and April 4th. I only have one subscription. Please refund the duplicate charge as soon as possible. My card ends in 4821.",
+    "category": "billing",
+    "priority": "high"
+  },
+  {
+    "id": "B002",
+    "subject": "Refund request - cancelled within 24 hours",
+    "body": "I subscribed to the Annual Pro plan by mistake yesterday (April 20th, $299). I meant to choose the monthly plan. I cancelled immediately but haven't received a refund. Your website says refunds are available within 24 hours. Order ID: ORD-2024-88321.",
+    "category": "billing",
+    "priority": "high"
+  },
+  {
+    "id": "B003",
+    "subject": "Payment keeps failing - card is valid",
+    "body": "My subscription renewal has failed 3 times now. I've triple-checked my card details and my bank confirms the card is active with sufficient funds. I'm worried my account will be suspended. Card ending in 7734, Visa.",
+    "category": "billing",
+    "priority": "high"
+  },
+  {
+    "id": "B004",
+    "subject": "Invoice shows wrong company name and VAT number",
+    "body": "The invoice for last month (INV-2024-0934) shows my old company name 'Acme Ltd' instead of 'Acme Technologies Ltd' and the VAT number is missing. I need a corrected invoice for our accounting department.",
+    "category": "billing",
+    "priority": "medium"
+  },
+  {
+    "id": "B005",
+    "subject": "How do I cancel my subscription?",
+    "body": "I'd like to cancel my monthly Pro subscription before the next billing date (April 30th). Can you tell me how to do this and confirm whether I'll have access until the end of the billing period? I don't want to be charged again.",
+    "category": "billing",
+    "priority": "medium"
+  },
+  {
+    "id": "B006",
+    "subject": "Promo code not applying at checkout",
+    "body": "I have a 30% discount code SAVE30APR that I received from your newsletter. When I enter it at checkout it says 'Invalid or expired code' but the newsletter says it's valid until April 30th. Can you apply it manually?",
+    "category": "billing",
+    "priority": "medium"
+  },
+  {
+    "id": "B007",
+    "subject": "Downgraded plan but still being charged at higher rate",
+    "body": "I downgraded from Pro ($49.99) to Basic ($19.99) on April 1st. My April 15th invoice still shows the Pro rate. It's been 2 weeks and this hasn't been corrected. I should receive a credit for the difference.",
+    "category": "billing",
+    "priority": "high"
+  },
+  {
+    "id": "B008",
+    "subject": "Need to add multiple seats to our team plan",
+    "body": "We're growing and need to add 10 more seats to our Business plan. We currently have 15 seats at $25/seat/month. Can you tell me the exact cost for 25 total seats and whether there's a bulk discount? Also, how do I add them from the dashboard?",
+    "category": "billing",
+    "priority": "low"
+  },
+  {
+    "id": "G001",
+    "subject": "How do I get started - new user completely lost",
+    "body": "I just signed up for a free trial and I'm not sure where to begin. I've watched the intro video but I still don't understand how to import my existing data and set up my first project. Is there a getting started guide or onboarding call available?",
+    "category": "general",
+    "priority": "low"
+  },
+  {
+    "id": "G002",
+    "subject": "What are your support hours?",
+    "body": "I'm in Australia (AEST timezone) and I'm trying to understand when your support team is available to chat. I've tried the live chat 3 times but it always says 'offline'. What timezone do your support hours follow?",
+    "category": "general",
+    "priority": "low"
+  },
+  {
+    "id": "G003",
+    "subject": "Request to delete my account and all data - GDPR",
+    "body": "Under GDPR Article 17, I'm formally requesting the deletion of my account and all associated personal data. My account email is the same as this ticket email. Please confirm receipt and provide a timeline for completion.",
+    "category": "general",
+    "priority": "high"
+  },
+  {
+    "id": "G004",
+    "subject": "Feature request: Dark mode for web app",
+    "body": "The web app is very bright and causes eye strain during late-night work sessions. I'd love to see a dark mode option. I know several colleagues who feel the same way. Is this on your roadmap? It would greatly improve my daily experience.",
+    "category": "general",
+    "priority": "low"
+  },
+  {
+    "id": "G005",
+    "subject": "Is my data stored in the EU or US?",
+    "body": "I'm a European customer and need to confirm where my data is stored for compliance purposes. My company's legal team requires written confirmation that data is stored in EU data centers or that you have standard contractual clauses in place.",
+    "category": "general",
+    "priority": "medium"
+  },
+  {
+    "id": "G006",
+    "subject": "Partnership and integration inquiry",
+    "body": "I represent a mid-sized SaaS company and we're interested in exploring a partnership or native integration with your platform. We have 50,000 users who could benefit from this. Who should I contact to discuss this opportunity?",
+    "category": "general",
+    "priority": "low"
+  },
+  {
+    "id": "G007",
+    "subject": "How do I transfer account ownership to a colleague?",
+    "body": "I'm leaving my company and need to transfer the admin/owner role of our company account to my colleague Sarah (sarah@company.com). I want to make sure all billing, data and settings remain intact. Is there a way to do this without losing anything?",
+    "category": "general",
+    "priority": "medium"
+  }
+]

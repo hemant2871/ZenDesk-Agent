@@ -1,0 +1,50 @@
+BILLING & PAYMENTS - FREQUENTLY ASKED QUESTIONS
+================================================
+
+Q: What is your refund policy?
+A: We offer a full refund within 30 days of purchase for annual plans and within 7 days for monthly plans, provided the account has not exceeded usage limits. To request a refund, contact support with your order ID. Refunds are processed within 5-7 business days back to the original payment method. Note: accounts that have violated our Terms of Service are not eligible for refunds.
+
+Q: How do I request a refund?
+A: To request a refund, open a support ticket with the subject "Refund Request" and include your Order ID (found in your invoice email or under Account > Billing > Invoice History). Our billing team will review your request within 1 business day. If approved, the refund will appear on your statement within 5-7 business days depending on your bank.
+
+Q: What payment methods do you accept?
+A: We accept all major credit and debit cards (Visa, Mastercard, American Express, Discover), PayPal, and bank transfers (ACH for US customers, SEPA for EU customers). We also accept payment via invoice for Enterprise customers. Cryptocurrency payments are not currently supported.
+
+Q: Why did my payment fail?
+A: Payment failures are usually caused by: (1) Incorrect card details - check expiry date, CVV, and billing address, (2) Insufficient funds, (3) Bank declining international transactions - contact your bank to authorize our charge, (4) Card blocked for online payments - enable online transactions with your bank, (5) 3D Secure authentication required - check for a text or email from your bank. If the issue persists after checking these, try a different payment method or contact your bank.
+
+Q: How do I update my payment method?
+A: Go to Account Settings > Billing > Payment Methods. Click "Add New Payment Method" and enter your card details. Once added, click "Set as Default" to use it for future renewals. Your old payment method will remain on file until you remove it. Changes take effect on your next billing cycle.
+
+Q: What happens if my subscription payment fails?
+A: If a payment fails, we retry automatically after 3 days, then again after 7 days. You'll receive email notifications at each failed attempt. After 14 days of failed payments, your account will be downgraded to the free plan and your data retained for 30 days. You can reactivate anytime by updating your payment method.
+
+Q: How do I cancel my subscription?
+A: To cancel, go to Account Settings > Billing > Subscription > Cancel Subscription. You'll keep access until the end of your current billing period. Your data is retained for 90 days after cancellation so you can reactivate if you change your mind. We do not offer prorated refunds for mid-cycle cancellations on monthly plans. Annual plan cancellations within 30 days receive a prorated refund.
+
+Q: Can I get a prorated refund if I downgrade?
+A: Yes. If you downgrade your plan mid-cycle, you'll receive a prorated credit for the unused portion of your higher plan. This credit is automatically applied to your next invoice. For example, if you're on a $50/month Pro plan and downgrade to a $20/month Basic plan 15 days into the month, you'll receive a $15 credit on your next bill.
+
+Q: How do I get a copy of my invoice?
+A: Invoices are emailed automatically to the account owner on each billing date. To download past invoices, go to Account Settings > Billing > Invoice History. You can download PDFs of all invoices from the past 24 months. If you need invoices older than 24 months, contact our billing team.
+
+Q: Can I change the billing email or company name on my invoice?
+A: Yes. Go to Account Settings > Billing > Billing Information to update your company name, billing email, address, and tax ID (VAT/GST number). Changes apply to future invoices. To get a corrected invoice for a past billing period, submit a support ticket with the invoice number and the correct details.
+
+Q: Do you offer discounts for annual plans?
+A: Yes, annual plans come with a 20% discount compared to paying monthly. For teams of 10 or more, we offer an additional 10% discount. Enterprise customers can negotiate custom pricing by contacting our sales team. Educational institutions and non-profits may qualify for special pricing - please contact us with documentation.
+
+Q: What is the difference between plans?
+A: Free plan: up to 3 users, 1GB storage, basic features. Basic plan ($19.99/month): up to 10 users, 10GB storage, standard features. Pro plan ($49.99/month): up to 25 users, 100GB storage, all features including API access and priority support. Business plan ($99.99/month): unlimited users, 1TB storage, all features plus dedicated support. Enterprise: custom pricing with SLA guarantees.
+
+Q: Can I get a discount code or promo applied manually?
+A: If your promo code isn't working, ensure it hasn't expired and is being entered without spaces. If the code is valid but not applying, our billing team can apply it manually to your next invoice. Submit a ticket with the code and your account email. Note: promotional codes cannot be combined with each other or applied retroactively to paid invoices.
+
+Q: How do I add more team seats to my plan?
+A: Go to Account Settings > Team > Manage Seats > Add Seats. Enter the number of additional seats needed and confirm payment. Additional seats are billed at your current per-seat rate, prorated for the current billing period. Bulk discounts apply automatically when you have 10+ total seats.
+
+Q: I was charged the wrong amount - what should I do?
+A: First, check that you haven't been upgraded or that a promo discount hasn't expired. Review your invoice details in Account Settings > Billing. If the charge is genuinely incorrect, submit a billing dispute ticket with your invoice number and the correct expected amount. We'll investigate and issue a credit or refund within 3 business days.
+
+Q: Do you charge VAT or sales tax?
+A: VAT is applied to customers in EU member states at their applicable rate. US customers in states with digital goods sales tax will see tax applied automatically based on their billing address. To add a VAT number for B2B transactions in the EU (to apply reverse charge), enter it in Account Settings > Billing > Tax Information before your next invoice.

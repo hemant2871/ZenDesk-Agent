@@ -1,0 +1,35 @@
+GENERAL INFORMATION - FREQUENTLY ASKED QUESTIONS
+=================================================
+
+Q: How do I get started as a new user?
+A: Welcome! Here's how to get started: (1) Complete your profile in Account Settings > Profile, (2) Follow the interactive onboarding tour that launches automatically on first login (or restart it from Help > Onboarding Tour), (3) Import your existing data via Settings > Import Data (supports CSV, Excel, and 20+ integrations), (4) Invite team members from Settings > Team > Invite Members, (5) Watch our Getting Started video series at docs.ourapp.com/getting-started. Our onboarding team also offers free 30-minute setup calls for Pro and Business plan users - book one from the Help menu.
+
+Q: What are your customer support hours?
+A: Our support team is available: Live Chat: Monday-Friday 9am-6pm EST (2pm-11pm UTC). Email Support: 24/7 response within 4 hours for Business/Enterprise, within 24 hours for Pro, within 48 hours for Free/Basic. Phone Support: Business and Enterprise plans only, Monday-Friday 9am-5pm EST. Emergency support for critical issues (service outages) is available 24/7 via our status page incident reporting. We are closed on major US public holidays.
+
+Q: How do I contact your sales team?
+A: To discuss Enterprise plans, custom pricing, or partnership opportunities: Email: sales@ourapp.com, Phone: +1 (888) 555-0100 (Monday-Friday 9am-6pm EST), Schedule a demo at ourapp.com/demo, or use the "Talk to Sales" button in the app. Our sales team typically responds within 2 business hours. For general inquiries, use our support chat or email support@ourapp.com.
+
+Q: How do I transfer account ownership?
+A: Account owners can transfer ownership to another admin: go to Account Settings > Team > select the member > click "Transfer Ownership". You must be the current owner to do this. The new owner will receive a confirmation email and must accept. After transfer, you'll be downgraded to Admin role. If you've left the company and can't access the account, the new owner can contact support with company verification documents.
+
+Q: I want to delete my account and all data.
+A: To delete your account: Account Settings > Security > Delete Account. This permanently deletes all your data within 30 days in accordance with GDPR/CCPA. For GDPR Article 17 Right to Erasure requests, email privacy@ourapp.com with "Data Deletion Request" in the subject. We'll confirm receipt within 24 hours and complete deletion within 30 days, sending written confirmation. Note: deletion cannot be undone and active subscriptions must be cancelled first.
+
+Q: Where is my data stored and is it secure?
+A: Your data is stored in ISO 27001 certified data centers. EU customers' data is stored in our Frankfurt, Germany data center by default, complying with GDPR data residency requirements. US customers use our Virginia, USA data center. All data is encrypted at rest (AES-256) and in transit (TLS 1.3). We are SOC 2 Type II certified and conduct annual penetration tests. A Data Processing Agreement (DPA) is available for Enterprise customers. View our full security policy at ourapp.com/security.
+
+Q: How do I submit a feature request?
+A: We love feature requests! Submit them at feedback.ourapp.com or through Help > Feature Requests in the app. Include as much detail as possible: what problem it solves, how you'd use it, and how many users would benefit. Our product team reviews all requests weekly. You can vote on existing requests to help us prioritize. We share our public roadmap at roadmap.ourapp.com and update it monthly.
+
+Q: Can I use your platform offline?
+A: Our web app requires an internet connection. The desktop app (Pro and Business plans) supports offline mode for viewing and editing existing data - changes sync automatically when reconnected. The mobile app offers read-only offline access. Note: collaborative features, real-time sync, and API access require an internet connection.
+
+Q: How do I set up integrations with other tools?
+A: We integrate with 100+ tools. To set up an integration: Settings > Integrations > Browse All > select your tool > click Connect and follow the authentication steps. Popular integrations include Slack, Google Workspace, Microsoft 365, Zapier, Salesforce, and Jira. For custom integrations, use our REST API (documentation at docs.ourapp.com/api). Enterprise customers have access to dedicated integration support.
+
+Q: What happens to my data if I downgrade or cancel?
+A: If you downgrade to a lower plan, features not included in the new plan become inaccessible but your data is preserved. If you exceed storage limits, you'll have 30 days to reduce storage before older data is archived. If you cancel, your data is retained for 90 days and you can reactivate at any time. After 90 days, data is permanently deleted. We recommend exporting your data before cancellation.
+
+Q: Is there a mobile app available?
+A: Yes! Our mobile app is available for iOS (14+) on the App Store and Android (11+) on Google Play. The mobile app supports core features including viewing/editing records, notifications, and offline read access. Some advanced features (bulk operations, advanced reporting, file uploads over 25MB) are desktop-only. The app auto-updates when connected to WiFi. Search for "OurApp" in your device's app store.

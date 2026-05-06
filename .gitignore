@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables (NEVER commit these)
+.env
+.env.local
+.env.production
+
+# Streamlit secrets (NEVER commit — add via Streamlit Cloud dashboard)
+.streamlit/secrets.toml
+
+# ChromaDB (rebuilt automatically on first run)
+chroma_db/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Evaluation results (optional — can be committed if desired)
+eval/results.json
+support-agent/eval/results.json
+
+# Logs
+*.log

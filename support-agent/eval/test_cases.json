@@ -1,0 +1,92 @@
+[
+  {
+    "id": "TC001",
+    "ticket_text": "Subject: Cannot log into my account\nI've been trying to log in for 2 hours with the correct password but keep getting 'Invalid credentials'. My account seems locked. Please help, I need this for work.",
+    "expected_action": "resolved",
+    "expected_category": "technical"
+  },
+  {
+    "id": "TC002",
+    "ticket_text": "Subject: Refund request for accidental annual subscription\nI accidentally purchased the annual plan for $299 yesterday. I meant to click the monthly option. I'd like a full refund. Order ID: ORD-2024-55123.",
+    "expected_action": "resolved",
+    "expected_category": "billing"
+  },
+  {
+    "id": "TC003",
+    "ticket_text": "Subject: App crashes on Samsung Galaxy S22\nThe Android app crashes every time I open it on my Samsung Galaxy S22 running Android 13. I've reinstalled twice. App version 4.1.0.",
+    "expected_action": "resolved",
+    "expected_category": "technical"
+  },
+  {
+    "id": "TC004",
+    "ticket_text": "Subject: How do I cancel my subscription?\nI want to cancel my monthly Pro subscription before the next billing date. Can you walk me through the steps? Will I lose access immediately?",
+    "expected_action": "resolved",
+    "expected_category": "billing"
+  },
+  {
+    "id": "TC005",
+    "ticket_text": "Subject: 2FA SMS codes not arriving\nI set up two-factor authentication last week and it was working. Now I'm not receiving the SMS codes at all. I've tried requesting 4 times. My account is completely inaccessible.",
+    "expected_action": "resolved",
+    "expected_category": "technical"
+  },
+  {
+    "id": "TC006",
+    "ticket_text": "Subject: Charged twice for the same month\nI see two charges of $49.99 on my bank statement on the same day. I have one subscription. Please refund the duplicate immediately.",
+    "expected_action": "resolved",
+    "expected_category": "billing"
+  },
+  {
+    "id": "TC007",
+    "ticket_text": "Subject: API returning 401 on all endpoints\nAll my API calls started returning 401 Unauthorized today. Nothing changed in my code. Using Bearer token authentication with the key from my dashboard.",
+    "expected_action": "resolved",
+    "expected_category": "technical"
+  },
+  {
+    "id": "TC008",
+    "ticket_text": "Subject: How do I get started as a new user?\nI just signed up and I'm completely lost. Where do I start? Is there an onboarding guide or tutorial?",
+    "expected_action": "resolved",
+    "expected_category": "general"
+  },
+  {
+    "id": "TC009",
+    "ticket_text": "Subject: GDPR data deletion request\nUnder GDPR Article 17, I formally request deletion of my account and all associated personal data. Please confirm receipt and provide a completion timeline.",
+    "expected_action": "resolved",
+    "expected_category": "general"
+  },
+  {
+    "id": "TC010",
+    "ticket_text": "Subject: Payment keeps failing - card is valid\nMy subscription renewal has failed 3 times. My Visa card ending in 7734 is active and my bank says no issue on their end. I'm worried about losing access.",
+    "expected_action": "resolved",
+    "expected_category": "billing"
+  },
+  {
+    "id": "TC011",
+    "ticket_text": "Subject: Custom machine learning model integration request\nWe want to integrate our proprietary ML model (trained on PyTorch 2.x) directly into your platform's pipeline. We need custom preprocessing hooks and GPU inference support. Can this be done?",
+    "expected_action": "escalated",
+    "expected_category": "technical"
+  },
+  {
+    "id": "TC012",
+    "ticket_text": "Subject: Enterprise contract negotiation - Fortune 500 company\nI represent a Fortune 500 company with 50,000 employees. We need custom SLA terms, dedicated infrastructure, and a negotiated multi-year contract. Who handles enterprise deals?",
+    "expected_action": "escalated",
+    "expected_category": "billing"
+  },
+  {
+    "id": "TC013",
+    "ticket_text": "Subject: Data breach notification - suspicious activity\nI've noticed unauthorized access to my account from an IP in Russia. I've never logged in from there. I believe my account has been compromised. This is urgent.",
+    "expected_action": "escalated",
+    "expected_category": "technical"
+  },
+  {
+    "id": "TC014",
+    "ticket_text": "Subject: What are your support hours?\nI'm based in Australia and I keep trying the live chat but it's always offline. What timezone are your support hours? When can I reach someone?",
+    "expected_action": "resolved",
+    "expected_category": "general"
+  },
+  {
+    "id": "TC015",
+    "ticket_text": "Subject: Where is my data stored? EU compliance needed.\nI'm a European customer. My legal team needs written confirmation that data is stored in EU data centers and that you have GDPR-compliant data processing agreements.",
+    "expected_action": "resolved",
+    "expected_category": "general"
+  }
+]

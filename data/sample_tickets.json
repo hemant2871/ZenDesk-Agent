@@ -1,0 +1,42 @@
+[
+  {
+    "id": "TICK-001",
+    "subject": "Can't log into my account",
+    "body": "Hi, I've been trying to log in for the past hour and keep getting an 'invalid credentials' error even though I'm sure my password is correct. I've tried resetting it but didn't receive the email. Please help!",
+    "category": "technical",
+    "priority": "high",
+    "expected_kb_ids": ["kb-005", "kb-003"]
+  },
+  {
+    "id": "TICK-002",
+    "subject": "Charged twice this month",
+    "body": "I noticed two charges from your company on my credit card statement this month, both for $49.99. My subscription is monthly and I should only be billed once. Please refund the duplicate charge.",
+    "category": "billing",
+    "priority": "high",
+    "expected_kb_ids": ["kb-001", "kb-012"]
+  },
+  {
+    "id": "TICK-003",
+    "subject": "How do I add my team members?",
+    "body": "We just upgraded to Pro and I want to add 5 new team members. I went to settings but I'm not sure where to find the option. Can you walk me through it?",
+    "category": "account",
+    "priority": "medium",
+    "expected_kb_ids": ["kb-011"]
+  },
+  {
+    "id": "TICK-004",
+    "subject": "API returning 429 errors",
+    "body": "Our integration started getting a lot of 429 errors from your API as of yesterday. We are on the Pro plan and our usage hasn't changed. Is there an incident?",
+    "category": "technical",
+    "priority": "high",
+    "expected_kb_ids": ["kb-009"]
+  },
+  {
+    "id": "TICK-005",
+    "subject": "Want to cancel subscription",
+    "body": "I'd like to cancel my subscription. Can you tell me if I'll be charged again and what happens to my data?",
+    "category": "subscription",
+    "priority": "medium",
+    "expected_kb_ids": ["kb-008"]
+  }
+]

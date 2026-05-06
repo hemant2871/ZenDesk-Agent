@@ -1,4 +1,4 @@
-# Zangoh Customer Support Ticket Resolution Agent
+# ZenDesk Customer Support Ticket Resolution Agent
 
 > An end-to-end AI agent that resolves customer support tickets using LangChain, ChromaDB, and GPT-4o-mini.
 
